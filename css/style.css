@@ -1,0 +1,185 @@
+@font-face {
+	font-family: 'Miso';
+	src:url('../fonts/miso-webfont.woff')
+}
+.body {
+	background-color: #fdde7e;
+	font-size: 20px;
+}
+.ba-flex-conteiner {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	max-width: 1200px;
+	align-items: center;
+}
+.ba-flex-block:nth-child(2) {
+	min-height: 550px;
+}
+.ba-flex-block {
+	margin: 10px;
+	align-items: center;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-width: 360px;
+}
+.ba-flex-header {
+	color: #02995b;
+	font-family: 'Miso', 'Arial';
+	font-size: 3.5em;
+	font-weight: 700;
+}
+.ba-flex-header p {
+	margin: 0;
+	padding: 0.57em 0 0.42em;
+}
+.ba-flex-name {
+	color: #333333;
+	font-family: 'Miso', 'Arial';
+	font-size: 2.8em;
+	font-weight: 400;
+	text-align: center;
+}
+.ba-flex-name p {
+	margin: 0;
+	padding: 0.55em 0 0.55em;
+}
+.ba-flex-price {
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.3em;
+	text-align: center;
+}
+.ba-flex-price p {
+	margin: 0;
+	padding: 0 0 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-transition: background .55s ease;
+	-moz-transition: background .55s ease;
+	-ms-transition: background .55s ease;
+	-o-transition: background .55s ease;
+	transition: background .55s ease;
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
