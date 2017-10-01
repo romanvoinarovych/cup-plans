@@ -27,7 +27,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	min-width: 360px;
+	width: 30%;
 }
 .ba-flex-header {
 	color: #02995b;
